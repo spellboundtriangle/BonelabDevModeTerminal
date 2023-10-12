@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bonelab Repo Adder</title>
+    </head>
+    <body>
+        <h1>Bonelab Repo Adder</h1>
+        <br>
+        <h2>IP:</h2>
+        <input id="devmodeip" type="text" value="ws://127.0.0.1:50152/console"> <button type="button" id="connectButton" onclick="">Connect</button>
+        <br>
+        <h2>Repo Address:</h2>
+        <input id="repoaddress" type="text" value="https://blrepo.laund.moe/repository.json"> <button type="button" id="addRepoButton" onclick="">Add Repo</button>
+        <h4>If it doesnt work immediately spam add repo and go back into game</h4>
+        <script>
+            function connectToWebsocket() {
+              var ip = document.getElementById("devmodeip").value;
+              
+              var socket = new WebSocket(ip);
+
+              socket.onopen = function() {
+                console.log("Connected to websocket at: " + ip);
+              };
+              
+              socket.onmessage = function(event) {
+                console.log("message: " + event.data);
+              };
+              
+              socket.onerror = function(error) {
+                console.log("error: " + error);
+              };
+            }
+          
+            function addRepo() {
+              var repoAddress = document.getElementById("repoaddress").value;
+          
+              var ip = document.getElementById("devmodeip").value;
+          
+              var socket = new WebSocket(ip);
+              
+              socket.onopen = function() {
+                console.log("Connected to websocket at IP: " + ip);
+                
+                var command = "repo.add " + repoAddress;
+                socket.send(command);
+          
+                console.log("Sent command: " + command);
+              };
+              
+              socket.onmessage = function(event) {
+                console.log("Received message: " + event.data);
+              };
+              
+              socket.onerror = function(error) {
+                console.log("WebSocket error: " + error);
+              };
+            }
+          
+            document.getElementById("connectButton").addEventListener("click", connectToWebsocket);
+            document.getElementById("addRepoButton").addEventListener("click", addRepo);
+        </script>
+```
+          
+          
+
+    </body>
+</html>

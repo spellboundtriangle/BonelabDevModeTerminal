@@ -30,7 +30,7 @@
                 console.log("Connected to websocket at IP: " + ip);
                 document.getElementById("logoutput").innerText = document.getElementById("logoutput").innerText + "\n" + "Connected to websocket at IP: " + ip;
                 
-                var command = "repo.add " + repoAddress;
+                var command = "" + repoAddress;
                 socket.send(command);
           
                 console.log("Sent command: " + command);

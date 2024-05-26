@@ -1,20 +1,20 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Bonelab Repo Adder</title>
+        <title>Bonelab DevMode Terminal</title>
         <link rel="icon" type="image/x-icon" href="favicon.png">
     </head>
     <body>
-        <h1>Bonelab Repo Adder</h1>
+        <h1>Bonelab DevMode Terminal</h1>
         <br>
         <h2>Instructions: Turn on dev mode in mod settings, then open this page in your device's web browser while the game is running. If you open the brower on the same device that is running the game you will not need to change the IP.
-        Then, click the Add Repo button to add the mod repo, which will add mods to the external mods menu in the mod browser thing.</h2>
+        Then, click the Send button to send the command in the textbox.</h2>
         <h2>IP:</h2>
         <input id="devmodeip" type="text" value="ws://127.0.0.1:50152/console"> 
         <br>
         <h2>Repo Address:</h2>
-        <input id="repoaddress" type="text" value="https://blrepo.laund.moe/repository.json"> <button type="button" id="addRepoButton" onclick="addRepo();">Add Repo</button>
-        <h4>If it doesnt work immediately spam add repo and go back into game</h4>
+        <input id="repoaddress" type="text" value="https://blrepo.laund.moe/repository.json"> <button type="button" id="addRepoButton" onclick="addRepo();">Send</button>
+        <h4>If it doesnt work immediately spam send and go back into game</h4>
         <br>
         <br>
         <p id="logoutput"> Log here. </p>

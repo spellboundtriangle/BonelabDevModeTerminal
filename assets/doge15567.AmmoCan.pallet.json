@@ -1,0 +1,342 @@
+{
+  "version": 2,
+  "root": {
+    "ref": "1",
+    "type": "pallet#0"
+  },
+  "objects": {
+    "1": {
+      "barcode": "doge15567.AmmoCan",
+      "title": "Ammo Can",
+      "description": "Physical Ammo Utility Mod",
+      "unlockable": false,
+      "redacted": false,
+      "author": "doge15567",
+      "version": "1.1.6",
+      "sdkVersion": "1.1.0",
+      "internal": false,
+      "crates": [
+        {
+          "ref": "2",
+          "type": "crate-spawnable#0"
+        },
+        {
+          "ref": "3",
+          "type": "crate-spawnable#0"
+        },
+        {
+          "ref": "4",
+          "type": "crate-spawnable#0"
+        },
+        {
+          "ref": "5",
+          "type": "crate-spawnable#0"
+        },
+        {
+          "ref": "6",
+          "type": "crate-spawnable#0"
+        },
+        {
+          "ref": "7",
+          "type": "crate-spawnable#0"
+        }
+      ],
+      "dataCards": [
+        {
+          "ref": "8",
+          "type": "1"
+        },
+        {
+          "ref": "9",
+          "type": "1"
+        },
+        {
+          "ref": "10",
+          "type": "1"
+        }
+      ],
+      "tags": [],
+      "changelogs": [],
+      "isa": {
+        "type": "pallet#0"
+      }
+    },
+    "2": {
+      "barcode": "doge15567.AmmoCan.Spawnable.AmmoCan",
+      "title": "Ammo Can",
+      "description": "thousands of each ammo type in a can!",
+      "unlockable": false,
+      "redacted": false,
+      "packedAssets": [
+        {
+          "title": "PreviewMesh",
+          "guid": "0e0791d5f7ea6804d89b3a4ce97089d2"
+        }
+      ],
+      "mainAsset": "1aa0b5d842246f94685b0ada7d7407ab",
+      "tags": [
+        "Gadget",
+        "Ammo",
+        "Prop"
+      ],
+      "colliderBounds": {
+        "center": {
+          "x": 3.7252903E-09,
+          "y": -0.009455219,
+          "z": -7.450581E-09
+        },
+        "extents": {
+          "x": 0.0349267535,
+          "y": 0.0787939951,
+          "z": 0.03492675
+        }
+      },
+      "isa": {
+        "type": "crate-spawnable#0"
+      }
+    },
+    "3": {
+      "barcode": "doge15567.AmmoCan.Spawnable.AmmoContents",
+      "title": "Ammo Contents",
+      "description": "",
+      "unlockable": false,
+      "redacted": true,
+      "packedAssets": [
+        {
+          "title": "PreviewMesh",
+          "guid": "51478aeb6cfe37b4ea16abf9d33f2241"
+        }
+      ],
+      "mainAsset": "69af2bc3e785af143850d057ba3ee9a1",
+      "tags": [],
+      "colliderBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "isa": {
+        "type": "crate-spawnable#0"
+      }
+    },
+    "4": {
+      "barcode": "doge15567.AmmoCan.Spawnable.AmmoBarrel",
+      "title": "Ammo Barrel",
+      "description": "Heavily Compressed Ammo Calculations, break to reveal contents!",
+      "unlockable": false,
+      "redacted": false,
+      "packedAssets": [
+        {
+          "title": "PreviewMesh",
+          "guid": "a1ae9f019e4b19d41b3308ec9d0848eb"
+        }
+      ],
+      "mainAsset": "7d43548c24184f94bad89d878e90a668",
+      "tags": [
+        "Ammo",
+        "Gadget",
+        "Prop",
+        "Destructible",
+        "Complex"
+      ],
+      "colliderBounds": {
+        "center": {
+          "x": 0.00210154057,
+          "y": 0.532674432,
+          "z": 5.96046448E-08
+        },
+        "extents": {
+          "x": 0.392882943,
+          "y": 0.5331782,
+          "z": 0.390781283
+        }
+      },
+      "isa": {
+        "type": "crate-spawnable#0"
+      }
+    },
+    "5": {
+      "barcode": "doge15567.AmmoCan.Spawnable.HeavyBarrelSegment",
+      "title": "Heavy Barrel Segment",
+      "description": "Aero Gel like cylinder object containing 10000 Heavy Ammo",
+      "unlockable": false,
+      "redacted": false,
+      "packedAssets": [
+        {
+          "title": "PreviewMesh",
+          "guid": "3ef58f87469347847a369233d0d7121d"
+        }
+      ],
+      "mainAsset": "8cba4b212c50b9d4784bd5073ce3f143",
+      "tags": [
+        "Ammo"
+      ],
+      "colliderBounds": {
+        "center": {
+          "x": 0.00145629048,
+          "y": 0.157548279,
+          "z": -0.00104570389
+        },
+        "extents": {
+          "x": 0.354574382,
+          "y": 0.158090025,
+          "z": 0.352546066
+        }
+      },
+      "isa": {
+        "type": "crate-spawnable#0"
+      }
+    },
+    "6": {
+      "barcode": "doge15567.AmmoCan.Spawnable.LightBarrelSegment",
+      "title": "Light Barrel Segment",
+      "description": "Aero Gel like cylinder object containing 10000 Light Ammo",
+      "unlockable": false,
+      "redacted": false,
+      "packedAssets": [
+        {
+          "title": "PreviewMesh",
+          "guid": "6cb0076533669d14bb799fc36d362451"
+        }
+      ],
+      "mainAsset": "2713d73205afc15449ac18c6313b8b65",
+      "tags": [
+        "Ammo"
+      ],
+      "colliderBounds": {
+        "center": {
+          "x": 0.00145629048,
+          "y": 0.157548279,
+          "z": -0.00104570389
+        },
+        "extents": {
+          "x": 0.354574382,
+          "y": 0.158090025,
+          "z": 0.352546066
+        }
+      },
+      "isa": {
+        "type": "crate-spawnable#0"
+      }
+    },
+    "7": {
+      "barcode": "doge15567.AmmoCan.Spawnable.MediumBarrelSegment",
+      "title": "Medium Barrel Segment",
+      "description": "Aero Gel like cylinder object containing 10000 Medium Ammo",
+      "unlockable": false,
+      "redacted": false,
+      "packedAssets": [
+        {
+          "title": "PreviewMesh",
+          "guid": "bb933b7cd4d33a748aa5ac0b8cc508dc"
+        }
+      ],
+      "mainAsset": "58b3a129b349b1842be16e9e94b98b57",
+      "tags": [
+        "Ammo"
+      ],
+      "colliderBounds": {
+        "center": {
+          "x": 0.00145629048,
+          "y": 0.157548279,
+          "z": -0.00104570389
+        },
+        "extents": {
+          "x": 0.354574382,
+          "y": 0.158090025,
+          "z": 0.352546066
+        }
+      },
+      "isa": {
+        "type": "crate-spawnable#0"
+      }
+    },
+    "8": {
+      "barcode": "doge15567.AmmoCan.SurfaceDataCard.AmmoSurfaceCompactHeavy",
+      "title": "Ammo Surface Compact Heavy",
+      "description": "Clone of Bioluminescent with  holes and maroon splatter.",
+      "unlockable": false,
+      "redacted": false,
+      "packedAssets": [
+        {
+          "title": "PhysicsMaterial",
+          "guid": "d5de614644075174e9c82eda6377888a"
+        },
+        {
+          "title": "PhysicsMaterialStatic",
+          "guid": "1c05e8fc7589857438712213bbd534a4"
+        },
+        {
+          "title": "SurfaceData",
+          "guid": "1f2f471ac316b5742b469b066004ac69"
+        }
+      ],
+      "dataCardAsset": "c639bf6f9809a524b8e9132d7b48dcc6",
+      "isa": {
+        "type": "1"
+      }
+    },
+    "9": {
+      "barcode": "doge15567.AmmoCan.SurfaceDataCard.AmmoSurfaceCompactMedium",
+      "title": "Ammo Surface Compact Medium",
+      "description": "Clone of Bioluminescent with  holes and orange splatter.",
+      "unlockable": false,
+      "redacted": false,
+      "packedAssets": [
+        {
+          "title": "PhysicsMaterial",
+          "guid": "d5de614644075174e9c82eda6377888a"
+        },
+        {
+          "title": "PhysicsMaterialStatic",
+          "guid": "1c05e8fc7589857438712213bbd534a4"
+        },
+        {
+          "title": "SurfaceData",
+          "guid": "5a46b93e1ce3b8646b402ba5a931dad7"
+        }
+      ],
+      "dataCardAsset": "b117d29c8965897448723d2b14005b55",
+      "isa": {
+        "type": "1"
+      }
+    },
+    "10": {
+      "barcode": "doge15567.AmmoCan.SurfaceDataCard.AmmoSurfaceCompactLight",
+      "title": "Ammo Surface Compact Light",
+      "description": "Clone of Bioluminescent with  holes and yellow splatter.",
+      "unlockable": false,
+      "redacted": false,
+      "packedAssets": [
+        {
+          "title": "PhysicsMaterial",
+          "guid": "d5de614644075174e9c82eda6377888a"
+        },
+        {
+          "title": "PhysicsMaterialStatic",
+          "guid": "1c05e8fc7589857438712213bbd534a4"
+        },
+        {
+          "title": "SurfaceData",
+          "guid": "b004f55869b02064da1cf97ea7f8cfc6"
+        }
+      ],
+      "dataCardAsset": "018554dc354935b4f80445f8843d3ecd",
+      "isa": {
+        "type": "1"
+      }
+    }
+  },
+  "types": {
+    "1": {
+      "type": "1",
+      "fullname": "SLZ.Marrow.Warehouse.SurfaceDataCard, SLZ.Marrow, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    }
+  }
+}

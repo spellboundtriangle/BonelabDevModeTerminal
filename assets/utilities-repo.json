@@ -1,0 +1,75 @@
+{
+  "version": 1,
+  "root": {
+    "ref": "o:1",
+    "type": "t:1"
+  },
+  "objects": {
+    "o:1": {
+      "title": "Utilities",
+      "description": "Misc. BONELAB utilities",
+      "mods": [
+        {
+          "ref": "o:2",
+          "type": "t:2"
+        }
+      ],
+      "isa": {
+        "type": "t:1"
+      }
+    },
+    "o:2": {
+      "barcode": "doge15567.AmmoCan",
+      "title": "Ammo Can",
+      "author": "doge15567",
+      "version": "1.1.6",
+      "sdkVersion": "1.1",
+      "description": "Physical Ammo Utility Mod",
+      "internal": false,
+      "tags": [],
+      "thumbnailUrl": "https://thumb.modcdn.io/mods/349a/4061166/crop_320x180/ammocan.png",
+      "manifestUrl": "https://raw.githubusercontent.com/spellboundtriangle/BonelabDevModeTerminal/refs/heads/devmode-console/assets/doge15567.AmmoCan.pallet.json",
+      "targets": {
+        "oculus-quest": {
+          "ref": "o:3",
+          "type": "t:3"
+        },
+        "pc": {
+          "ref": "o:4",
+          "type": "t:3"
+        }
+      },
+      "isa": {
+        "type": "t:2"
+      }
+    },
+    "o:3": {
+      "thumbnailOverride": null,
+      "url": "https://g-3809.modapi.io/v1/games/3809/mods/4061166/files/5487638/download",
+      "isa": {
+        "type": "t:3"
+      }
+    },
+    "o:4": {
+      "thumbnailOverride": null,
+      "url": "https://g-3809.modapi.io/v1/games/3809/mods/4061166/files/5487636/download",
+      "isa": {
+        "type": "t:3"
+      }
+    }
+  },
+  "types": {
+    "t:1": {
+      "type": "t:1",
+      "fullname": "SLZ.Marrow.Forklift.Model.ModRepository, SLZ.Marrow.SDK, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    "t:2": {
+      "type": "t:2",
+      "fullname": "SLZ.Marrow.Forklift.Model.ModListing, SLZ.Marrow.SDK, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    "t:3": {
+      "type": "t:3",
+      "fullname": "SLZ.Marrow.Forklift.Model.DownloadableModTarget, SLZ.Marrow.SDK, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    }
+  }
+}
